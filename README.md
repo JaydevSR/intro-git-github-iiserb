@@ -10,7 +10,6 @@
 7. Working together
 8. Contributing to Open Source
 
-## Apendix
 
 ### Cheatsheet of git commands
 
