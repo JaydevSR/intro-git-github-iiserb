@@ -11,7 +11,7 @@
 8. Contributing to Open Source
 
 
-### Cheatsheet of git commands
+## Cheatsheet of git commands
 
 #### For setup and initialization
 **git init**: initialize an existing directory as a Git repository<br>
