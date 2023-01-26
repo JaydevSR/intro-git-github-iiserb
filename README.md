@@ -1,4 +1,4 @@
-# Introduction to Git and GitHub for project management and open source
+# Introduction to Git and GitHub for Project Management and Open Source Development
 
 ## Outline
 1. What is version control?
