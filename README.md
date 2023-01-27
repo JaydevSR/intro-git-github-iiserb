@@ -5,11 +5,11 @@
     ### For Linux
     If you’re on Fedora (or any closely-related RPM-based distribution, such as RHEL or CentOS), open terminal and run
     ```
-    $ sudo dnf install git-all
+    sudo dnf install git-all
     ```
     If you’re on a Debian-based distribution, such as Ubuntu, try apt:
     ```
-    $ sudo apt install git-all
+    sudo apt install git-all
     ```
     In case you face any issues you can refer to this [page](https://git-scm.com/download/linux) for step by step procedure
 
@@ -19,32 +19,36 @@
     ### For Mac
     PCs with mac usually come with git already installed. You can try the following command in the terminal
     ```
-    $ git --version
+    git --version
     ```
     and if git is not already installed, it will prompt you to install it.
 
 2. Once you complete the first step, run the following command on the terminal
     ```
-    $ git
+    git
     ```
     and you should see a prompt like the one shown below
     ![](git_cmd.png)
     If this is not the case, then follow the instructions on official [git page](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) for downloading and installing git.
 
-3. Download GitHub CLI by following the instructions from this [page](https://github.com/cli/cli)
+3. Next, create a new GitHub account by visiting [this page](https://github.com/join).
 
-4. Try running the following command
+4. Download GitHub CLI by following the instructions from this [page](https://github.com/cli/cli).
+
+5. Try running the following command
     ```
-    $ gh
+    gh
     ```
     You should see a prompt like this
     ![](gh_cmd.png)
 
-5. In the command line, authenticate to GitHub.
+6. In the command line, authenticate to GitHub.
     ```
-    $ gh auth login
+    gh auth login
     ```
     Now you are ready to start using git and GitHub from the Terminal!
+
+
 ## Outline
 1. What is version control?
 2. What is Git?
