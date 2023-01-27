@@ -33,14 +33,18 @@
 
 3. Download GitHub CLI by following the instructions from this [page](https://github.com/cli/cli)
 
-4. After downloading the GitHub CLI, try running the following command
+4. Try running the following command
     ```
     $ gh
     ```
     You should see a prompt like this
     ![](gh_cmd.png)
 
-    Now you are ready to start using git!
+5. In the command line, authenticate to GitHub.
+    ```
+    $ gh auth login
+    ```
+    Now you are ready to start using git and GitHub from the Terminal!
 ## Outline
 1. What is version control?
 2. What is Git?
