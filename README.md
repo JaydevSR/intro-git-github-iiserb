@@ -1,5 +1,7 @@
 # Introduction to Git and GitHub for Project Management and Open Source Development
 
+**[Link to GitHub repository](https://github.com/JaydevSR/intro-git-github-iiserb)**
+
 ## First steps
 1. Download git for your respective Operating system by following the corresponding instructions:<br>
     ### For Linux
@@ -47,7 +49,6 @@
     gh auth login
     ```
     Now you are ready to start using git and GitHub from the Terminal!
-
 
 ## Outline
 1. What is version control?
