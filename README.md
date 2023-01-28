@@ -28,7 +28,7 @@
     git
     ```
     and you should see a prompt like the one shown below
-    ![](git_cmd.png)
+    ![](img/git_cmd.png)
     If this is not the case, then follow the instructions on official [git page](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) for downloading and installing git.
 
 3. Next, create a new GitHub account by visiting [this page](https://github.com/join).
@@ -40,7 +40,7 @@
     gh
     ```
     You should see a prompt like this
-    ![](gh_cmd.png)
+    ![](img/gh_cmd.png)
 
 6. In the command line, authenticate to GitHub.
     ```
