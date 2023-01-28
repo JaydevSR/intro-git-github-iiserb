@@ -1,5 +1,7 @@
 # Introduction to Git and GitHub for Project Management and Open Source Development
 
+**[Link to GitHub repository](https://github.com/JaydevSR/intro-git-github-iiserb)**
+
 ## Outline
 1. What is version control?
 2. What is Git?
