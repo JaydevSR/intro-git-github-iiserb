@@ -235,6 +235,13 @@ On pressing “Open pull request” you’ll be asked to add a title and descrip
 
 Once you have made a pull request, the owner of the original repository can review your work and request changes from you if required. Once the review process is done your pull request will be merged and you can calmly sip your cup of coffee. Well done! You have made an open-source contribution by doing this!
 
+## Exercise
+
+1. Fork this repository.
+2. Download it locally.
+3. Make changes to EXERCISE.md
+4. Push and make a pull request
+
 ## Cheatsheets 
 
 > Whatever included within `< ... >` is a variable i.e. is upto the user to decide.
