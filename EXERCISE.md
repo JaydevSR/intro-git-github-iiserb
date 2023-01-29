@@ -23,8 +23,8 @@
 ### Kartikeya Gupta
 "Hello Bhaiya mujhe sticker dedo"
 
-### Srutanik Bhaduri:
->"Nostalgia is truly one of the greatest human weaknesses, second only to the neck" - Dwight Schrute
+### Shivam Chopra
+  > "The greatest glory in living lies not in never falling, but in rising every time we fall."
 
 ### Ankur Kumar
   > "Hell hath no fury like a women scorned"
