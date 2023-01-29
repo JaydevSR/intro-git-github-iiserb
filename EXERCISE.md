@@ -4,3 +4,6 @@
 
 ### Jaydev Singh Rao:
   > “The world must be all fucked up," he said then, "when men travel first class and literature goes as freight.” —Gabriel García Márquez
+
+### Shivam Chopra
+  > "The greatest glory in living lies not in never falling, but in rising every time we fall."
