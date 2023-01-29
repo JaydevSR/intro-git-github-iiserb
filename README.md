@@ -159,7 +159,7 @@ Once logged in you can simply create a new repository which will automatically b
 
 On clinking “New”, the following page opens up:
 
-![](img/create_repo.png)
+<img width=600 src="img/create_repo.png"></img>
 
 On this page we have many options to setup our projects:
 
@@ -196,7 +196,7 @@ When there are changes to the repository on GitHub (using GitHub’s editor, oth
 
 ## A Complete Workflow of a Version Controlled Project
 
-```jsx
+```
 1. Initialize Git project (`git init`)
 2. Add a remote repository on GitHub (previous section)
 
