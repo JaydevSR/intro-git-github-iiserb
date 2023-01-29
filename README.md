@@ -4,7 +4,8 @@
 
 ## First steps
 1. Download git for your respective Operating system by following the corresponding instructions:<br>
-    ### For Linux
+
+    **For Linux**<br>
     If you’re on Fedora (or any closely-related RPM-based distribution, such as RHEL or CentOS), open terminal and run
     ```
     sudo dnf install git-all
@@ -15,10 +16,10 @@
     ```
     In case you face any issues you can refer to this [page](https://git-scm.com/download/linux) for step by step procedure
 
-    ### For Windows
+    **For Windows**<br>
     Follow this [link](https://git-scm.com/download/win) and download the installer for the version compatible for your pc. Then open the installer to complete the installation process
 
-    ### For Mac
+    **For Mac**<br>
     PCs with mac usually come with git already installed. You can try the following command in the terminal
     ```
     git --version
