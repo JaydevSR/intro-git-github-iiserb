@@ -4,7 +4,10 @@
 
 ### Jaydev Singh Rao:
   > “The world must be all fucked up," he said then, "when men travel first class and literature goes as freight.” —Gabriel García Márquez
-   
+
+### Siddhi Lipare
+> "CyberHeathens: Where Coders Unite!"
+
 ### Aryan Jain
 > "With great GitHub, comes great Pull Requests"
 
