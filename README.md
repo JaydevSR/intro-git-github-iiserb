@@ -50,15 +50,164 @@
     ```
     Now you are ready to start using git and GitHub from the Terminal!
 
-## Outline
-1. What is version control?
-2. What is Git?
-3. Structure of Git projects
-4. Basic commands
-5. Hosting Git projects on GitHub
-6. Push and Pull
-7. Working together
-8. Contributing to Open Source
+## What is version control?
+*The practive of keeping a timeline or history of all the changes in a software project is known as “version control”.* Git is simply the most popular software that is used for version control and that the reason everyone planning to contribute to open source projects is expected to have decent knowledge of how this tool works.
+
+## Creating a Git Project
+A git project is just a directory with a speacial `.git/` folder. This folder contains all the information about the history of your project and how its current state was reached. To make any folder a git project simply move to the folder and run (in terminal): `git init`, which tells git to creat the `.git/` folder for you. 
+
+Let’s take an example to follow along. Imagine you are a ‘soon to be famous’ chef specializing in making revolutionary (or rather anarchaic) dishes. You decide to keep track of all your genius ideas as git project. So, for this follow the following steps:
+
+1. Create a folder to keep all the dishes: `mkdir disasterous_dishes`
+2. Move to the folder: `cd disasterous_dishes`
+3. Convert this folder to a git repository to keep track of your adventures (for historians): `git init`
+
+That’s it! Now you have converted the simple folder into a superpowered time-machine.
+
+## Adding Files to your project
+
+Now let’s create our first recipe! This is to learn how to keep track of file changes using git. It is usually a good idea to organize files in sub-directories so that it is easier to keep track of things.
+
+1. Make a directory to all the recipes ‘sans-pan’ (i.e. without a pan): `mkdir sans_pan`
+2. Move to the subdirectory: `cd sans_pan`
+3. Create a new file using your favorite text editor, named `sunny_omelette.txt` to record our novel recipe:
+    
+    ```
+    Ingredients:
+    - 1 Egg
+    - 1 magnifying glass
+    - 1 sun (preferably close enough to feel warm)
+    
+    Steps:
+    - Break the egg on the floor under the sun
+    - Focus the sunlight on the eggs content using the magnifying glass
+    - Wait for it to cook!
+    - After some time you'll have a sunny side up (theoretically) using the sun
+    ```
+    
+4. Now once you have this file added: `cd ..` and then `git status`. You’ll see that git tells you there are some new changes. Once sure about these changes you can ‘stage’ these changes for adding to history.
+5. To stage these changes write `git add sunny_omelette.txt` . Like this you can add multiple files that you have **created** or **modified** to finalize or ‘commit’.
+6. Once all the changes that you want to make are staged, you can commit these which just means recording these as a *savepoint* that you can refer back to or return back to. To do this type: `git commit -m "add sunny side up recipe"`. The string that comes after `-m` is a descriptive message that you can use to record what these changes are for.
+7. Now when you type `git log` you can see that your last commit was recorded in the projects history.
+
+**Overall the workflow consists of the following steps:**
+
+1. Make Changes (using text editor)
+2. Stage Changes (`git add ...` )
+3. Commit Changes (`git commit -m “...”` )
+
+These are the steps that are almost always followed while working on a git project!
+
+## Reverting mistakes
+
+So you have been doing well with your recipe, and you think of taking it a step ahead by trying out something ‘innovative’. You somehow out of nowhere think that maybe adding `sugar` to `sunny_omelette.txt` would get you to your ‘Rising Star Chef of the Year’ award. You make the change in the recipe save it.
+
+At this point when you were about to commit it, one of your chemistry major friends brags his knowledge of chemical reactions and tells you that:
+
+> It is not wise to add sugar to the egg because by doing this the amino acid present in both components is released, and it becomes toxic for the human body as it leads to the formation of clots in the blood.
+> 
+
+You promptly thank your friend and start hitting `ctrl + z` repeatedly to arrive at the point where you began. Well, this is not needed, as git has many better ways of helping you out. You can use `git checkout -- <filename>` or `git restore <filename>` and arrive at the most recent version previously known to Git in the commit history.
+
+If you would have staged this file after saving then to unstage it you could have used `git restore --staged <filename>`. 
+
+Even if you would have committed these changes you still could have reverted by using `git revert <commit>`. If you pass `HEAD` in `<commit>`, then it will create a new commit that will undo the changes made in the latest commit.
+
+Suppose you identified this mistake after several commits then you can use `git reset <wanted SHA version>` to rewind the repository’s history to the chosen SHA version, so commits made after it are no longer applied. The SHA version can be found using `git log` where you can just use the first six characters of the really long unique id.
+
+Sometimes you may want to just visit and see the stage of a file a an earlier point in the commit history. This can be done with the help of `git checkout <SHA version>`, and this will take the `HEAD` to the commit with the specified SHA version.
+
+## Branching and Merging
+
+It is not always a good idea to experiment with the recipe you have and reverting back when you later encounter that the results yielded by your experiment are not desirable. Alternatively, you may sometimes want to experiment two different additions in the recipe in parallel. Branching can help in these and many other situations. 
+
+> A branch represents an independent line of development. Branches serve as an abstraction for the edit/stage/commit process. You can think of them as a way to request a brand new working directory, staging area, and project history. New commits are recorded in the history for the current branch, which results in a fork in the history of the project.
+> 
+
+Branches are the alternate universes for the same project. Whenever you want to experiment with something, just create a new branch! 
+
+Let’s create a new branch called `experiment` for our recipe book. We can do this using `git branch experiment`, then go to that branch (jump to that universe) by `git checkout experiment` or `git switch experiment` and start experimenting without affecting the recipes in your `master` i.e. the default branch. The commits can be added as usual to this new branch as you proceed to add several steps in your experimentation. You can see all of the branches present in the project using the command `git branch`.
+
+Once you feel you have arrived at ‘The Recipe’, then serve it to your friends (after consulting with that Chemistry nerd of course), and if they declare it to be better than your earlier art, then you may want to go ahead and make it your main recipe. This essentially requires you to merge the `experiment` branch into the `master` branch.
+
+That brings us to merging. 
+
+> Merging is Git's way of putting a forked history back together again. The `git merge`
+ command lets you take the independent lines of development created by `git branch`
+ and integrate them into a single branch.
+> 
+
+For merging the changes to your `master` branch, first switch to that branch to which you want to merge into, which here is `master` by using `git checkout master` or `git switch master`. Next there are two possible ways of merging: fast-forward merge and three-way merge.
+
+The fast-forward merge is the simplest kind of merge, but it can only be used when there is a linear path from the tip of your `master` branch to the tip of the `experiment` branch. Since this is the case over here so we can use it by running `git merge experiment` (remember you are doing this after switching to the `main` branch. This will move the tip of the `main` branch to point to the commit to which the `experiment` branch is pointing to. 
+
+At this point the history of both the branches are exactly the same so if you don’t have any more ideas for experimentation currently, then you can go ahead and delete the redundant `experiment` branch. To do this you can type `git branch -d experiment`.
+
+Now suppose, while you were still experimenting on the `experiment` branch, you think that your customers are not getting enough out of your dish, so you change your main recipe (in the `master` branch) to include a pinch of MSG. This has caused the branches to diverge i.e., there are different sets of changes in both of the branches. 
+
+Due to the above scenario there is not a linear path from the `main` branch to the `experiment` branch. In such a case, after switching to the main branch, performing `git merge experiment` will automatically result in a 3-way merge, in which it will make a new commit to tie together the two histories. The command `git merge --no-ff <branch name>` will always make a new merge commit. However, changing the same file in different branches and attempting to merge them can lead to a **merge-conflict** which needs to be resolved manually (and it can be really complicated to do so most of the time). *You may read more about merge conflictsts later when you face one yourself!*
+
+## GitHub: A place for everyone’s git projects
+
+**Github** is a place to upload and share git projects for anyone (or the people you want) to see. This is a very good place to share exciting things, find interesting projects made by other people and also display your skills through your public projects.
+
+Github hosts majority of open-source projects for anyone to find and contribute to given the right set of skills and interests. For this reason learning about this website is complementary to learning Git and a must for anyone interested in open source.
+
+Once logged in you can simply create a new repository which will automatically be a Git project as well. To do this look at the top left corner:
+
+![img/new_repository_button.png]()
+
+On clinking “New”, the following page opens up:
+
+![img/create_repo.png]()
+
+On this page we have many options to setup our projects:
+
+1. *Name* of the repository, this should be unique to your account.
+2. *Description*, to explain in short what the project is about.
+3. *Visibility*, i.e. who can see the repository (Public or Private).
+4. Add a README file (to give more explaination about the code), Add a .gitignore file (tells git not track certain files) and add a LICENCE file for your code (useful for new and big projects).
+
+Now let’s make a simple repository with a README file. Once you do this you can open this repository to see:
+
+![img/demonstration_repo.png]()
+
+Here you can do the following things:
+
+1. Add new files: using the button “Add file”.
+2. Dowload the repository.
+
+That’s it! This is all that is needed to manage a basic project on GitHub.
+
+## Uploading repositories to GitHub
+
+In order to upload an existing Git project to GitHub, we first have to create an empty GitHub repository (without README/LICENSE/.gitignore files) and then we have something like this:
+
+Then we follow the steps given in the instructions:
+
+1. First go to your git project from the terminal (using `cd`)
+2. `git remote add origin <repository_url.git>`: To let git know where to upload the files
+3. `git branch -M main`: To remane the current branch to “main” (this is a convention followed on GitHub)
+4. `git push -u origin main`: To push (upload the files on GitHub)
+
+Once you do this you will be able to see the files on GitHub. Whenever you modify anything **locally** on your PC (i.e. adding new commits) you can sync the changes by just running the command `git push`.
+
+When there are changes to the repository on GitHub (using GitHub’s editor, other computer or by someone else who is collaborating with you), you have to sync the changes back from GitHub to your local project. Doing this is as simple as it gets! You just run the command `git pull`.
+
+## A Complete Workflow of a Version Controlled Project
+
+```jsx
+1. Initialize Git project (`git init`)
+2. Add a remote repository on GitHub (previous section)
+
+while (True) {
+		3. Synchronize GitHub repository (`git pull`)
+		4. Make changes (using your text editor)
+		5. Stage changes to commit (`git add <files>`)
+		6. Commit the changes (`git commit -m “…”`)
+		7. Push the changes to GitHub (`git push`)
+}
+```
 
 ## Cheatsheets 
 
