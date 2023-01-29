@@ -175,7 +175,7 @@ Now let’s make a simple repository with a README file. Once you do this you ca
 Here you can do the following things:
 
 1. Add new files: using the button “Add file”.
-2. Dowload the repository.
+2. Dowload the repository: using `git clone <url.git>` or `gh repo clone <User/repo>` or just plain download.
 
 That’s it! This is all that is needed to manage a basic project on GitHub.
 
