@@ -5,5 +5,11 @@
 ### Jaydev Singh Rao:
   > “The world must be all fucked up," he said then, "when men travel first class and literature goes as freight.” —Gabriel García Márquez
    
-Name: Aryan Jain
-Quote: "With great GitHub, comes great Pull Requests"
+### Aryan Jain
+> "With great GitHub, comes great Pull Requests"
+
+### Srutanik Bhaduri:
+>"Nostalgia is truly one of the greatest human weaknesses, second only to the neck" - Dwight Schrute
+
+### Ankur Kumar
+  > "Hell hath no fury like a women scorned"
