@@ -155,11 +155,11 @@ Github hosts majority of open-source projects for anyone to find and contribute 
 
 Once logged in you can simply create a new repository which will automatically be a Git project as well. To do this look at the top left corner:
 
-![img/new_repository_button.png]()
+![](img/new_repository_button.png)
 
 On clinking “New”, the following page opens up:
 
-![img/create_repo.png]()
+![](img/create_repo.png)
 
 On this page we have many options to setup our projects:
 
@@ -170,7 +170,7 @@ On this page we have many options to setup our projects:
 
 Now let’s make a simple repository with a README file. Once you do this you can open this repository to see:
 
-![img/demonstration_repo.png]()
+![](img/demonstration_repo.png)
 
 Here you can do the following things:
 
