@@ -5,6 +5,9 @@
 ### Jaydev Singh Rao:
   > “The world must be all fucked up," he said then, "when men travel first class and literature goes as freight.” —Gabriel García Márquez
 
+### Rishi Gupta:
+  > "Changes Made"
+
 #### Tharun:
   > " Kitna aadmi the!" -Sholey
 
