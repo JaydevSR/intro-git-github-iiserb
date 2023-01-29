@@ -209,6 +209,32 @@ while (True) {
 }
 ```
 
+# Pull requests: Contributing to Other’s Repositories
+
+When you want to contribute to someone else’s GitHub repository, then the first thing you need to do is to fork that repository. Forking a GitHub repository creates a copy of the original repository in your GitHub account. Click on the fork button on the original repository:
+
+![](img/fork_button.png)
+
+Once you do this you’ll have the following options (just click on “create fork”):
+
+![](img/fork_options.png)
+
+You can then clone that repository to create a local copy and build upon the work done until the point you are satisfied with the changes you wish to add to the original project. Once you have made your desired changes push these changes to the remote forked repository (the same way as you would do to an ordinary repository).
+
+There is a horizontal bar you could see above the files in your forked repository that keeps track of how the forked repository and the original repository are diverging.
+
+![](img/contribute_from_fork.png)
+
+In this bar click on “sync changes” button to sync any changes in the original repository. And then “Contribute” to make a **pull request**.
+
+![](img/open_pull_request.png)
+
+On pressing “Open pull request” you’ll be asked to add a title and description of the pull request so that others can understand the changes you are proposing.
+
+![](img/pull_req_options.png)
+
+Once you have made a pull request, the owner of the original repository can review your work and request changes from you if required. Once the review process is done your pull request will be merged and you can calmly sip your cup of coffee. Well done! You have made an open-source contribution by doing this!
+
 ## Cheatsheets 
 
 > Whatever included within `< ... >` is a variable i.e. is upto the user to decide.
