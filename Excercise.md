@@ -1,3 +1,0 @@
-# Excercise
-
-My contribution
