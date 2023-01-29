@@ -4,5 +4,15 @@
 
 ### Jaydev Singh Rao:
   > “The world must be all fucked up," he said then, "when men travel first class and literature goes as freight.” —Gabriel García Márquez
-Hello Bhaiya! Name: Siddhi Lipare. Had Fun in the Workshop!
-CyberHeathens: Where Coders Unite!
+  
+### Siddhi Lipare
+> "CyberHeathens: Where Coders Unite!"
+
+### Kartikeya Gupta
+"Hello Bhaiya mujhe sticker dedo"
+
+### Srutanik Bhaduri:
+>"Nostalgia is truly one of the greatest human weaknesses, second only to the neck" - Dwight Schrute
+
+### Ankur Kumar
+  > "Hell hath no fury like a women scorned"
