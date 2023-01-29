@@ -5,6 +5,9 @@
 ### Jaydev Singh Rao:
   > “The world must be all fucked up," he said then, "when men travel first class and literature goes as freight.” —Gabriel García Márquez
 
+### Hakim Jahan Sekhe
+  > "Pleasure lies in humility and kindness" -Hakim Jahan
+
 ### Sumouli:
   > "Not all the battles are fought for victory. Some are fought to tell the world that someone was there in the battlefield"
 
