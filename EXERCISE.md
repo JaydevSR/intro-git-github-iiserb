@@ -7,3 +7,30 @@
 
 ### Veeru Kumar Singh:
   > "Science is the belief in the ignorance of experts." -Richard P. Feynman
+
+### Siddhi Lipare
+> "CyberHeathens: Where Coders Unite!"
+
+### Aryan Jain
+> "With great GitHub, comes great Pull Requests"
+
+### Rishabh Goswami:
+  > "Push kro khush raho"
+
+### Rishi Gupta:
+  > "Changes Made"
+
+#### Tharun:
+  > " Kitna aadmi the!" -Sholey
+
+### Kartikeya Gupta
+"Hello Bhaiya mujhe sticker dedo"
+
+### Shivam Chopra
+  > "The greatest glory in living lies not in never falling, but in rising every time we fall."
+
+### Ankur Kumar
+  > "Hell hath no fury like a women scorned"
+
+### Shambhuraje Nagawade
+  > "All is well"
