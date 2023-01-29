@@ -86,7 +86,7 @@ Now let’s create our first recipe! This is to learn how to keep track of file 
     ```
     
 4. Now once you have this file added: `cd ..` and then `git status`. You’ll see that git tells you there are some new changes. Once sure about these changes you can ‘stage’ these changes for adding to history.
-5. To stage these changes write `git add sunny_omelette.txt` . Like this you can add multiple files that you have **created** or **modified** to finalize or ‘commit’.
+5. To stage these changes write `git add sans_pan/sunny_omelette.txt` . Like this you can add multiple files that you have **created** or **modified** to finalize or ‘commit’.
 6. Once all the changes that you want to make are staged, you can commit these which just means recording these as a *savepoint* that you can refer back to or return back to. To do this type: `git commit -m "add sunny side up recipe"`. The string that comes after `-m` is a descriptive message that you can use to record what these changes are for.
 7. Now when you type `git log` you can see that your last commit was recorded in the projects history.
 
