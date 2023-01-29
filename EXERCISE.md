@@ -6,5 +6,4 @@
   > “The world must be all fucked up," he said then, "when men travel first class and literature goes as freight.” —Gabriel García Márquez
 
 ### Srutanik Bhaduri:
-"Nostalgia is truly one of the greatest human weaknesses, second only to
-the neck" - Dwight Schrute
+>"Nostalgia is truly one of the greatest human weaknesses, second only to the neck" - Dwight Schrute
