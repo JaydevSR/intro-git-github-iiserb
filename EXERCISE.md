@@ -7,3 +7,18 @@
 
 ### Rishabh Goswami:
   > "Push kro khush raho"
+
+### Rishi Gupta:
+  > "Changes Made"
+
+#### Tharun:
+  > " Kitna aadmi the!" -Sholey
+
+### Kartikeya Gupta
+"Hello Bhaiya mujhe sticker dedo"
+
+### Srutanik Bhaduri:
+>"Nostalgia is truly one of the greatest human weaknesses, second only to the neck" - Dwight Schrute
+
+### Ankur Kumar
+  > "Hell hath no fury like a women scorned"
