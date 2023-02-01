@@ -8,6 +8,9 @@
 ### Jaydev Singh Rao:
   > “The world must be all fucked up," he said then, "when men travel first class and literature goes as freight.” —Gabriel García Márquez
 
+### Yashika Patil
+  > "Heeeehehehehehheeeeeeehehheee." -Yashika Patil
+  
 ### Akshay V Nair
   > "I have no clue"- akshay
 
