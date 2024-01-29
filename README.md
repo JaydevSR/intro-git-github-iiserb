@@ -52,12 +52,12 @@
     Now you are ready to start using git and GitHub from the Terminal!
 
 ## What is version control?
-*The practive of keeping a timeline or history of all the changes in a software project is known as “version control”.* Git is simply the most popular software that is used for version control and that the reason everyone planning to contribute to open source projects is expected to have decent knowledge of how this tool works.
+*The practice of keeping a timeline or history of all the changes in a software project is known as “version control”.* Git is simply the most popular software that is used for version control and that the reason everyone planning to contribute to open source projects is expected to have decent knowledge of how this tool works.
 
 ## Creating a Git Project
 A git project is just a directory with a speacial `.git/` folder. This folder contains all the information about the history of your project and how its current state was reached. To make any folder a git project simply move to the folder and run (in terminal): `git init`, which tells git to creat the `.git/` folder for you. 
 
-Let’s take an example to follow along. Imagine you are a ‘soon to be famous’ chef specializing in making revolutionary (or rather anarchaic) dishes. You decide to keep track of all your genius ideas as git project. So, for this follow the following steps:
+Let’s take an example to follow along. Imagine you are a ‘soon to be famous’ chef specializing in making revolutionary (or rather anarchic) dishes. You decide to keep track of all your genius ideas as git project. So, for this follow the following steps:
 
 1. Create a folder to keep all the dishes: `mkdir disasterous_dishes`
 2. Move to the folder: `cd disasterous_dishes`
